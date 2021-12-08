@@ -243,9 +243,9 @@ body {
   font-family: "Source Serif Pro";
   font-size: 1.1rem;
   position: absolute;
-  top: -5%;
+  top: -1%;
   width: 50%;
-  height: 18%;
+  height: 13%;
   background-color: #7a1d28;
   border: 4px solid #ebe2d4;
   display: -ms-grid;
@@ -273,7 +273,7 @@ body {
 }
 
 .creative-head::before {
-  content: "Creative Head and Editor";
+  content: "Creative Head & Editor";
   text-align: center;
 }
 
@@ -303,7 +303,7 @@ body {
 }
 
 .advisor-web::before {
-  content: "Advisor and Webmaster";
+  content: "Advisor & Webmaster";
   text-align: center;
 }
 
@@ -418,7 +418,7 @@ body {
 }
 
 .anushka::after {
-  content: "Anushka Bhandary";
+  content: "Anushka Bh&ary";
   color: #ebe2d4;
   font-family: "Source Serif Pro";
   font-size: 1.1rem;
@@ -473,7 +473,7 @@ body {
 }
 
 .pr-market::before {
-  content: "PR and Marketing Executive";
+  content: "PR & Marketing Executive";
   text-align: center;
 }
 
@@ -518,7 +518,7 @@ body {
 }
 
 .blossom::after {
-  content: "Blossom Fernandes";
+  content: "Blossom Fern&es";
   color: #ebe2d4;
   font-family: "Source Serif Pro";
   font-size: 1.1rem;
@@ -586,14 +586,14 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .audio-visual::before {
-    padding: 0 0;
+  .information::before {
+    font-size: 0.9rem;
   }
 }
 
 @media (min-width: 575px) and (max-width: 767px) {
   .information::before {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .information::after {
     font-size: 1.2rem;
@@ -603,7 +603,7 @@ body {
 
 @media (min-width: 425px) and (max-width: 574px) {
   .information::before {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .information::after {
     font-size: 1.2rem;
@@ -619,7 +619,7 @@ body {
 
 @media (min-width: 375px) and (max-width: 424px) {
   .information::before {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .photo {
     width: 70%;
@@ -631,7 +631,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 374px) {
   .information::before {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .photo {
     width: 70%;
