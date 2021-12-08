@@ -213,6 +213,7 @@ body {
 
 .ribbon.credits-ribbon::after {
   content: "Credits";
+  color: #7a1d28;
 }
 
 .extra-margin {
