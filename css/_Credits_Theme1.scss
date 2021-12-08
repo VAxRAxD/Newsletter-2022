@@ -1,0 +1,371 @@
+@import "./Theme";
+body{
+    background-color: $lightbrown !important;
+}
+.ribbon img{
+    content: url("../images/label-dark.png" );
+}
+.ribbon.credits-ribbon::after{
+    content: "Credits";
+}
+.extra-margin{
+    margin-bottom: 2rem;
+}
+.credits{
+    display: flex;
+    position: relative;
+}
+.information{
+    @include flex-center-relative;
+    margin-bottom: 4.5rem;
+}
+.information::before{
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    position: absolute;
+    top: -5%;
+    width: 50%;
+    height: 18%;
+    background-color: $lightbrown;
+    border: 4px solid $maroon;
+    display: grid;
+    place-items: center;
+}
+.information img{
+    background-color: white;
+}
+.audio-visual-head::before{
+    content: "Audio & Visual Head";
+    text-align: center;
+}
+.audio-visual-head::after{
+    content: "Shubh Mehta";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.creative-head::before{
+    content: "Creative Head and Editor";
+    text-align: center;
+}
+.creative-head::after{
+    content: "Anisa Victoria Furtado";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+
+}
+.graphics-head::before{
+    content: "Graphics Head";
+    text-align: center;
+}
+.graphics-head::after{
+    content: "Almash Alam";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+
+}
+.advisor-web::before{
+    content: "Advisor and Webmaster";
+    text-align: center;
+}
+.advisor-web::after{
+    content: "Sarita Acharya";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+
+}
+.mentor::before{
+    content: "Mentor";
+    text-align: center;
+}
+.mentor::after{
+    content: "Grinal Tuscano";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.pr-market-head::before{
+    content: "PR & Marketing Head";
+    text-align: center;
+}
+.pr-market-head::after{
+    content: "Vedika Manelkar";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.event-log-head::before{
+    content: "Events & Logistics Head";
+    text-align: center;
+}
+.event-log-head::after{
+    content: "Yash Doshi";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.web::before{
+    content: "Webmaster";
+    text-align: center;
+}
+.arvind::after{
+    content: "Arvind Suthar";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.varad::after{
+    content: "Varad Prabhu";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.graph-exec::before{
+    content: "Graphics Executive";
+    text-align: center;
+}
+.shashank::after{
+    content: "Shashank Rai";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.kiran::after{
+    content: "Kiran Gupta";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.creative-exec::before{
+    content: "Creative Executive";
+    text-align: center;
+}.anushka::after{
+    content: "Anushka Bhandary";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.isha::after{
+    content: "Isha Lagad";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.lyann::after{
+    content: "Lyann Henriques";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.urvi::after{
+    content: "Urvi Bajaj";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.events-log-exec::before{
+    content: "Events & Logistics Executive";
+    text-align: center;
+}
+.events-log-exec::after{
+    content: "Chrisanne Rebello";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.pr-market::before{
+    content: "PR and Marketing Executive";
+    text-align: center;
+}
+.shubham::after{
+    content: "Shubham Mukherjee";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.jessica::after{
+    content: "Jessica Gonsalves";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.pratham::after{
+    content: "Pratham Gaonkar";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.sid::after{
+    content: "Siddhant Rebello";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.blossom::after{
+    content: "Blossom Fernandes";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.audio-visual::before{
+    content: "Audio Visual Executive ";
+    text-align: center;
+    padding: 0 0.5rem;
+}
+.yash::after{
+    content: "Yash Pambujya";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.shawn::after{
+    content: "Shawn Pereira";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.artist::before{
+    content: "@thenewartistintown";
+    text-align: center;
+}
+.artist::after{
+    content: "Sheldon Moonjelil";
+    color: $maroon;
+    font-family: "Source Serif Pro";
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+.photo{
+    width: 60%;
+    height: 10rem;
+    margin: 2rem 0;
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .information::before{
+        font-size: 1.1rem;
+        height: 18%;
+    }  
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .audio-visual::before{
+        padding: 0 0;
+    }
+}
+@media (min-width: 575px) and (max-width: 767px){
+    .information::before{
+        font-size: 1.2rem;
+    }
+    .information::after{
+        font-size: 1.2rem;
+        top: 97%;
+    }
+}
+@media (min-width: 425px) and (max-width: 574px){
+    .information::before{
+        font-size: 1.2rem;
+    }
+    .information::after{
+        font-size: 1.2rem;
+        top: 97%;
+    }
+    .event-log-head::before{
+        padding: 0 0.5rem;
+    }
+    .advisor-web::before{
+        padding: 0 0.5rem;
+    }
+}
+@media (min-width: 375px) and (max-width: 424px){
+    .information::before{
+        font-size: 1.1rem;
+    }
+    .photo{
+        width: 70%;
+    }
+    .information::after{
+        top: 97%;
+    }
+}
+@media (min-width: 320px) and (max-width: 374px){
+    .information::before{
+        font-size: 1rem;
+    }
+    .photo{
+        width: 70%;
+    }
+}

@@ -1,0 +1,69 @@
+@import "./Theme";
+body {
+  background-color: $maroon;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.ribbon {
+  &::after {
+    content: "Alumni Speaks";
+  }
+}
+.bg-container {
+  @include flex-center;
+}
+.btn-pull-right {
+  float: right;
+  background: $lightbrown;
+  color: $maroon;
+}
+.alumni-text {
+    color: $lightbrown;
+  text-align: justify;
+}
+.msg-box {
+  border: 12px dashed $darkgrey;
+  position: relative;
+  border-image: url("../img/border_bg.png") 30 round;
+  padding: 1rem;
+  background: #dfc49c;
+}
+.line {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background: $darkgrey;
+    left: 0;
+  }
+}
+.header-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+
+  img {
+    height: 100px;
+  }
+}
+.profile-pic {
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .line::before {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .profile-pic {
+    width: 110px;
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
+
+$maroon: #7a1d28;
+$lightbrown: #ebe2d4;
+$white: #ffffff;
+$white: #ffffff;
+$darkgrey: #555555;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ribbon {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+    &::after {
+      content: "";
+      position: absolute;
+      color: $white;
+      padding: 0.2rem;
+      font-family: "Lobster", cursive;
+      font-size: 1.8rem;
+    }
+  }
+  @media only screen and (min-width: 475px) {
+    .ribbon img {
+      max-width: 350px;
+    }
+    
+  }
+  @media only screen and (max-width: 475px) {
+    .ribbon {
+      img {
+        max-width: 300px;
+      }
+      &::after {
+        font-size: 1.3rem;
+        padding: 0.12rem;
+      }
+    }
+  }
+
+@mixin flex-center-relative {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pos-rel {
+  position: relative;
+}
+@mixin grid-center {
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+

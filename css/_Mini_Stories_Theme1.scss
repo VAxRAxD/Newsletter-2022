@@ -1,0 +1,79 @@
+@import "./Theme";
+body{
+    background-color: $lightbrown !important;
+}
+.stories{
+    display: flex;
+    position: relative;
+    margin-top: 2rem
+}
+.story{
+    @include flex-center-relative;
+    margin-bottom: 6rem;
+}
+.click{
+    width: 90% !important;
+    margin: 1rem 0;
+}
+.story::before{
+    content: "The Balloon";
+    font-family: "Source Serif Pro";
+    font-style: italic;
+    font-size: 1.3rem;
+    color: $maroon;
+    position: absolute;
+    top: -8%;
+}
+.story::after{
+    width: 80%;
+    height: 2rem;
+    content: "Anushka Bhandary (batch of 2024, CMPN)";
+    font-family: "Source Serif Pro";
+    font-size: 0.95rem;
+    font-style: italic;
+    text-align: center;
+    color: $lightbrown;
+    background-color: $maroon;
+    position: absolute;
+    padding: 0rem 0;
+    top: 98%;
+    display: grid;
+    place-items: center;
+}
+.story img{
+    border-radius: 25px;
+}
+@media (min-width: 1024px) and (max-width: 1199px){
+    .story::after{
+        font-size: 0.85rem;
+        width: 80%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .story::after{
+        height: 1.5rem;
+        font-size: 0.93rem;
+        width: 80%;
+    }
+}
+@media (min-width: 425px) and (max-width: 767px){
+    .story::after{
+        height: 1.5rem;
+        font-size: 0.99rem;
+        width: 75%;
+    }
+}
+@media (min-width: 375px) and (max-width: 424px){
+    .story::after{
+        height: 1.5rem;
+        font-size: 0.9rem;
+        width: 75%;
+    }
+}
+@media (min-width: 320px) and (max-width: 374px){
+    .story::after{
+        height: 1.5rem;
+        font-size: 0.83rem;
+        width: 80%;
+    }
+}
