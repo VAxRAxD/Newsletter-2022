@@ -2,34 +2,31 @@
 body{
     background-color: $maroon !important;
 }
+.ribbon.events-ribbon::after{
+    content: "Mini Stories";
+    color: $maroon;
+}
+.ribbon img{
+    content: url("../images/label-light.png" );
+}
 .stories{
     display: flex;
     position: relative;
-    margin-top: 2rem
 }
 .story{
     @include flex-center-relative;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
 }
 .click{
     width: 90% !important;
     margin: 1rem 0;
 }
-.story::before{
-    content: "The Balloon";
-    font-family: "Source Serif Pro";
-    font-style: italic;
-    font-size: 1.3rem;
-    color: $lightbrown;
-    position: absolute;
-    top: -8%;
-}
+
 .story::after{
     width: 80%;
     height: 2rem;
-    content: "Anushka Bhandary (batch of 2024, CMPN)";
     font-family: "Source Serif Pro";
-    font-size: 0.95rem;
+    font-size: 1.2rem;
     font-style: italic;
     text-align: center;
     color: $maroon;
@@ -40,40 +37,87 @@ body{
     display: grid;
     place-items: center;
 }
-.story img{
+.story.aman-sir::after{
+    content: "Amantali Pathan";
+}
+.story.khan-sir::after{
+    content: "Shamsudin Khan";
+}
+.story.amrita-maam::after{
+    content: "Amrita Mathur"
+}
+.story.monika-maam::after{
+    content: "Monika Pal"
+}
+.story.savita-maam::after{
+    content: "Savita Kulkarni";
+}
+.story.seema-vrishali-maam::after{
+    content: "Seema Jadhav & Vrishali Jadhav";
+}
+.story.josna-maam::after{
+    content: "Josna Jones";
+}
+.story.bysani-sir::after{
+    content: "Bysani Malakondaiah";
+}
+.story.khalap-sir::after{
+    content: "D.V. Khalap";
+}
+.story.harish-sir::after{
+    content: "Harish Arekar";
+}
+.story.sainath-sir::after{
+    content: "Sainath Ghosalkar";
+}
+.story video{
     border-radius: 25px;
 }
-@media (min-width: 1024px) and (max-width: 1199px){
+@media (min-width: 1200px) and (max-width: 1399px){
     .story::after{
-        font-size: 0.85rem;
+        font-size: 1rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .story::after{
+        font-size: 0.95rem;
         width: 80%;
     }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .story::after{
         height: 1.5rem;
-        font-size: 0.93rem;
+        font-size: 1rem;
         width: 80%;
     }
 }
 @media (min-width: 425px) and (max-width: 767px){
     .story::after{
         height: 1.5rem;
-        font-size: 0.99rem;
+        font-size: 1rem;
         width: 75%;
+    }
+    .story{
+        margin-bottom: 4rem;
     }
 }
 @media (min-width: 375px) and (max-width: 424px){
     .story::after{
         height: 1.5rem;
-        font-size: 0.9rem;
+        font-size: 1rem;
         width: 75%;
+    }
+    .story{
+        margin-bottom: 4rem;
     }
 }
 @media (min-width: 320px) and (max-width: 374px){
     .story::after{
         height: 1.5rem;
-        font-size: 0.83rem;
+        font-size: 0.9rem;
         width: 80%;
+    }
+    .story{
+        margin-bottom: 4rem;
     }
 }

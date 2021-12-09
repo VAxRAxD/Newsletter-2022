@@ -2,6 +2,13 @@
 body{
     background-color: $maroon !important;
 }
+.ribbon.batch2021-ribbon::after{
+    content: "Batch Of 2021";
+    color: $maroon;
+}
+.ribbon img{
+    content: url("../images/label-light.png" );
+}
 .batch{
     display: flex;
     position: relative;
