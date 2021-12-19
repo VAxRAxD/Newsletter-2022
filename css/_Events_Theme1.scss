@@ -3,7 +3,9 @@
 body {
   background: $lightbrown;
 }
-
+.ribbon::after {
+  content: "Events";
+}
 .flip-card {
   width: 300px;
   height: 400px;

@@ -1,0 +1,85 @@
+@import "./Theme";
+body {
+  font-family: "Source Serif Pro", serif !important;
+  background: $lightbrown;
+}
+.text-maroon {
+  color: $maroon;
+}
+.modal-body::-webkit-scrollbar {
+  display: none;
+}
+.ribbon::after {
+  content: "Spotlight";
+}
+.modal-dialog img {
+  width: 100%;
+}
+.modal-content {
+  background: transparent;
+  border: none;
+}
+.announcement_wrap {
+  background: url("../img/announcement_bg.png");
+  background-size: cover;
+
+  h2 {
+    color: $maroon;
+  }
+}
+.announcement_wrap {
+  padding: 0.5rem;
+}
+//#modal-content-ann {
+//  display: none;
+//}
+.spotlight-card {
+  padding: 0.6rem;
+  border: 3px solid $maroon;
+  margin: 1rem;
+  max-width: 250px;
+  .spotlight-name,
+  .spotlight-subtitle {
+    color: $maroon;
+    text-align: center;
+  }
+  .spotlight-name {
+    background: $lightbrown;
+    margin-top: -1.5rem;
+    font-weight: bolder;
+  }
+
+  .spotlight-img {
+    width: 100%;
+  }
+}
+.f-col {
+  flex-direction: column;
+}
+.btn-maroon {
+  background: $maroon;
+  color: #fff;
+}
+.btn-maroon:hover {
+  color: #ccc;
+}
+.poem-modal .modal-content {
+  text-align: center;
+
+  .modal-body {
+    background: url("../img/poem_bg.png");
+    background-size: 100% 100%;
+    //height: min-content;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    h1 {
+      padding-top: 5rem;
+    }
+  }
+}
+@media only screen and (max-width: 528px) {
+  .poem-modal .modal-dialog {
+    height: 60% !important;
+  }
+}

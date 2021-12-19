@@ -8,11 +8,12 @@ body {
   padding: 0;
 
   h1 {
-    background: #ddc8a7;
+    background: $lightbrown;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 900;
   }
 
   span {
@@ -33,7 +34,6 @@ body {
     justify-content: center;
   }
 }
-
 .mentor-text {
   font-size: 1.2rem;
   text-align: justify;
@@ -41,7 +41,7 @@ body {
 }
 .mentor-img {
   max-height: 40vh;
-  border: 10px solid $white;
+  border: 10px solid $lightbrown;
 }
 .img-wrap {
   @include flex-center;

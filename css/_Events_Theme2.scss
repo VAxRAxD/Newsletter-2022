@@ -3,7 +3,9 @@
 body {
   background: $maroon;
 }
-
+.ribbon::after {
+  content: "Events";
+}
 .flip-card {
   width: 300px;
   height: 400px;
@@ -34,7 +36,7 @@ body {
   justify-content: space-between;
 
   .subtitle {
-    color: $lightbrown;
+    color: $maroon;
     font-size: 0.8rem;
     cursor: pointer;
   }

@@ -25,8 +25,8 @@ body{
     font-family: "Source Serif Pro";
     font-size: 1.1rem;
     position: absolute;
-    top: 0%;
-    width: 50%;
+    top: -10%;
+    width: 55%;
     height: 13%;
     background-color: #F6F3F4;
     border: 4px solid $lightbrown;
@@ -96,7 +96,7 @@ body{
     text-align: center;
 }
 .mentor::after{
-    content: "Grinal Tuscano";
+    content: "Ms. Grinal Tuscano";
     color: $lightbrown;
     font-family: "Source Serif Pro";
     font-size: 1.1rem;
@@ -302,7 +302,7 @@ body{
     display: none;
 }
 .artist::before{
-    content: "@thenewartistintown";
+    content: "Creative Executive";
     text-align: center;
 }
 .artist::after{
@@ -327,6 +327,7 @@ body{
 }
 @media (min-width: 768px) and (max-width: 1023px) {
     .information::before{
+        top: -7%;
         font-size: 0.9rem;
     }
 }
@@ -341,6 +342,8 @@ body{
 }
 @media (min-width: 425px) and (max-width: 574px){
     .information::before{
+        top: -8%;
+        width: 55%;
         font-size: 1.1rem;
     }
     .information::after{
@@ -356,6 +359,8 @@ body{
 }
 @media (min-width: 375px) and (max-width: 424px){
     .information::before{
+        top: -7%;
+        width: 65%;
         font-size: 1rem;
     }
     .photo{
@@ -367,6 +372,8 @@ body{
 }
 @media (min-width: 320px) and (max-width: 374px){
     .information::before{
+        top: -6%;
+        width: 65%;
         font-size: 0.9rem;
     }
     .photo{
