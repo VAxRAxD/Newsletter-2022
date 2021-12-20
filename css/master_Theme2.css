@@ -3,31 +3,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -252,8 +264,8 @@ body {
   font-family: "Source Serif Pro";
   font-size: 1.1rem;
   position: absolute;
-  top: -10%;
-  width: 55%;
+  top: -11%;
+  width: 56%;
   height: 13%;
   background-color: #F6F3F4;
   border: 4px solid #ebe2d4;
@@ -567,7 +579,7 @@ body {
 }
 
 .artist::before {
-  content: "Creative Executive";
+  content: "Cover Photo  @thenewartistintown";
   text-align: center;
 }
 
@@ -1299,6 +1311,205 @@ body {
   }
   .container-fluid {
     padding: 0;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ribbon {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.ribbon::after {
+  content: "";
+  position: absolute;
+  color: #ffffff;
+  padding: 0.2rem;
+  font-family: "Lobster", cursive;
+  font-size: 1.8rem;
+}
+
+@media only screen and (min-width: 475px) {
+  .ribbon img {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .ribbon img {
+    max-width: 300px;
+  }
+  .ribbon::after {
+    font-size: 1.6rem;
+    padding: 0.1rem;
+  }
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.header-tab {
+  background-color: #7a1d28;
+}
+
+.header-tab p {
+  font-family: "Berkshire Swash";
+  color: #ebe2d4;
+  font-size: 2.4rem;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.header-nav {
+  padding-top: 0.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #7a1d28;
+}
+
+.nav-link {
+  color: #F6F3F4 !important;
+  font-family: "Source Serif Pro" !important;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #7a1d28 !important;
+  background-color: #ebe2d4 !important;
+}
+
+.hamburger-menu, .cross-menu, .hamburger-menu-light, .cross-menu-light {
+  position: absolute;
+  top: 7rem;
+  display: none;
+  margin-left: 1rem;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #7a1d28;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #F6F3F4;
+  font-family: "Source Serif Pro" !important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #ebe2d4;
+}
+
+.show {
+  display: block;
+}
+
+hr {
+  height: 3px !important;
+  color: #ffffff !important;
+  border-style: solid !important;
+}
+
+@media (max-width: 1059px) {
+  .header-nav {
+    display: none;
+  }
+  #bottom {
+    display: none;
+  }
+  .header-nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hamburger-menu-light {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 525px) and (max-width: 1059px) {
+  .hamburger-menu-light, .cross-menu-light {
+    top: 1.8rem;
+  }
+}
+
+@media (min-width: 461px) and (max-width: 540px) {
+  .hamburger-menu-light, .cross-menu {
+    left: -0.5rem;
+  }
+}
+
+@media (min-width: 461px) and (max-width: 540px) {
+  .container p {
+    margin: 0 2rem;
+    padding-bottom: 0.2rem;
+  }
+}
+
+@media (min-width: 941px) and (max-width: 1059px) {
+  .header-nav {
+    -webkit-transform: translate(-38%, 0);
+            transform: translate(-38%, 0);
+  }
+}
+
+@media (min-width: 701px) and (max-width: 940px) {
+  .header-nav {
+    -webkit-transform: translate(-35%, 0);
+            transform: translate(-35%, 0);
+  }
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+  .header-nav {
+    -webkit-transform: translate(-30%, 0);
+            transform: translate(-30%, 0);
+  }
+}
+
+@media (min-width: 375px) and (max-width: 500px) {
+  .header-nav {
+    -webkit-transform: translate(-25%, 0);
+            transform: translate(-25%, 0);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  .header-nav {
+    -webkit-transform: translate(-20%, 0);
+            transform: translate(-20%, 0);
   }
 }
 /*# sourceMappingURL=master_Theme2.css.map */
