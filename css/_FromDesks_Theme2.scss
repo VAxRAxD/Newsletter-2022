@@ -3,6 +3,13 @@ body {
   background: $maroon;
   font-family: "Source Serif Pro", serif;
 }
+.ribbon.fromdesks-ribbon::after{
+  content: "From the Desks";
+  color: $maroon;
+}
+.ribbon img{
+  content: url("../images/label-light.png" );
+}
 .side-col {
   text-align: center;
   padding: 0;

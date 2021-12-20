@@ -4,7 +4,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-
+.ribbon.alumni-ribbon::after{
+  content: "Alumni's Speak";
+}
+.ribbon img{
+  content: url("../images/label-dark.png" );
+}
 .bg-container {
   @include flex-center;
 }

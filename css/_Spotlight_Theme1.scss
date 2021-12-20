@@ -9,8 +9,11 @@ body {
 .modal-body::-webkit-scrollbar {
   display: none;
 }
-.ribbon::after {
+.ribbon.spotlight-ribbon::after{
   content: "Spotlight";
+}
+.ribbon img{
+  content: url("../images/label-dark.png" );
 }
 .modal-dialog img {
   width: 100%;

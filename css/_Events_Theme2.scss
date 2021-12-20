@@ -3,8 +3,12 @@
 body {
   background: $maroon;
 }
-.ribbon::after {
+.ribbon.events-ribbon::after{
   content: "Events";
+  color: $maroon;
+}
+.ribbon img{
+  content: url("../images/label-light.png" );
 }
 .flip-card {
   width: 300px;

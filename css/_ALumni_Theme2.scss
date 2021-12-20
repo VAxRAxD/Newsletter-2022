@@ -4,10 +4,12 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-.ribbon {
-  &::after {
-    content: "Alumni Speaks";
-  }
+.ribbon.alumni-ribbon::after{
+  content: "Alumni's Speak";
+  color: $maroon;
+}
+.ribbon img{
+  content: url("../images/label-light.png" );
 }
 .bg-container {
   @include flex-center;
