@@ -47,6 +47,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -1507,6 +1514,11 @@ hr {
   .hamburger-menu {
     display: inline-block;
   }
+  #myDropdown {
+    position: absolute;
+    left: 93%;
+    top: -5%;
+  }
 }
 
 @media (min-width: 525px) and (max-width: 1059px) {
@@ -1551,15 +1563,195 @@ hr {
 
 @media (min-width: 375px) and (max-width: 500px) {
   .header-nav {
-    -webkit-transform: translate(-25%, 0);
-            transform: translate(-25%, 0);
+    -webkit-transform: translate(-20%, 0);
+            transform: translate(-20%, 0);
   }
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
+  html {
+    overflow-x: hidden;
+  }
+  .header-nav li {
+    font-size: 0.9rem;
+  }
   .header-nav {
     -webkit-transform: translate(-20%, 0);
             transform: translate(-20%, 0);
+  }
+  #myDropdown {
+    left: 92%;
+  }
+  #myDropdown a {
+    padding-right: 0 !important;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ribbon {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.ribbon::after {
+  content: "";
+  position: absolute;
+  color: #ffffff;
+  padding: 0.2rem;
+  font-family: "Lobster", cursive;
+  font-size: 1.8rem;
+}
+
+@media only screen and (min-width: 475px) {
+  .ribbon img {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .ribbon img {
+    max-width: 300px;
+  }
+  .ribbon::after {
+    font-size: 1.6rem;
+    padding: 0.1rem;
+  }
+}
+
+.pos-rel {
+  position: relative;
+}
+
+body {
+  background: #ebe2d4;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  min-width: 100vw;
+  overflow-x: hidden;
+  font-family: "Source Serif Pro", serif !important;
+}
+
+.ribbon.foreword-ribbon::after {
+  content: "Foreword";
+}
+
+.ribbon img {
+  content: url("../images/label-dark.png");
+}
+
+.foreword-header {
+  padding: 1rem;
+}
+
+.foreword-header .foreword-img-wrap {
+  width: 70%;
+}
+
+.foreword-header .foreword-img-wrap::before {
+  content: "";
+  height: 150vh;
+  top: 0;
+  width: 8rem;
+  background: #ddc8a7;
+  position: absolute;
+  z-index: -1;
+}
+
+.foreword-header .foreword-img-wrap::after {
+  content: "";
+  height: 8rem;
+  left: 0;
+  width: 100vw;
+  background: #ddc8a7;
+  position: absolute;
+  z-index: -1;
+}
+
+.foreword-header img {
+  border: 1rem solid #ffffff;
+  width: inherit;
+}
+
+.foreword-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.foreword-name h3,
+.foreword-name h4 {
+  color: #7a1d28;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.foreword-name h4 {
+  opacity: 0.7;
+}
+
+.foreword-para {
+  padding: 0 1rem;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1024px) {
+  .foreword-img-wrap {
+    width: 80% !important;
+  }
+  .foreword-img-wrap::before {
+    width: 6rem !important;
+    height: 130vh !important;
+  }
+  .foreword-img-wrap::after {
+    height: 6rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .foreword-img-wrap {
+    width: 80% !important;
+  }
+  .foreword-img-wrap::before {
+    display: none;
+  }
+  .foreword-img-wrap::after {
+    display: none;
+  }
+  .foreword-container {
+    background: #ddc8a7;
+  }
+  .foreword-name {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .foreword-para {
+    padding: 0 3rem 0 0;
+    text-align: justify;
   }
 }
 /*# sourceMappingURL=master_Theme1.css.map */

@@ -1360,6 +1360,11 @@ hr {
   .hamburger-menu-light {
     display: inline-block;
   }
+  #myDropdown {
+    position: absolute;
+    left: 93%;
+    top: -5%;
+  }
 }
 
 @media (min-width: 525px) and (max-width: 1059px) {
@@ -1410,9 +1415,21 @@ hr {
 }
 
 @media (min-width: 320px) and (max-width: 374px) {
+  html {
+    overflow-x: hidden;
+  }
+  .header-nav li {
+    font-size: 0.9rem;
+  }
   .header-nav {
     -webkit-transform: translate(-20%, 0);
             transform: translate(-20%, 0);
+  }
+  #myDropdown {
+    left: 92%;
+  }
+  #myDropdown a {
+    padding-right: 0 !important;
   }
 }
 /*# sourceMappingURL=master_Theme2.css.map */
