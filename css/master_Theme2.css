@@ -574,7 +574,7 @@ body {
   background-color: #7a1d28 !important;
 }
 
-.ribbon.events-ribbon::after {
+.ribbon.stories-ribbon::after {
   content: "Mini Stories";
   color: #7a1d28;
 }
@@ -941,10 +941,10 @@ body {
 
 .polaroid-card .polaroid-img {
   background: #949494;
-  /*aspect-ratio: 1;*/
   overflow: hidden;
 }
-.polaroid-img img{
+
+.polaroid-card .polaroid-img img {
   width: 100%;
 }
 

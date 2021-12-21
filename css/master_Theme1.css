@@ -575,7 +575,7 @@ body {
   background-color: #ebe2d4 !important;
 }
 
-.ribbon.events-ribbon::after {
+.ribbon.stories-ribbon::after {
   content: "Mini Stories";
 }
 
@@ -810,8 +810,8 @@ body {
 .msg-box {
   border: 12px dashed #555555;
   position: relative;
-  -o-border-image: url("../img/border_bg.png") 30 round;
-     border-image: url("../img/border_bg.png") 30 round;
+  -o-border-image: url("../images/border_bg.png") 30 round;
+     border-image: url("../images/border_bg.png") 30 round;
   padding: 1rem;
   background: #dfc49c;
 }
@@ -843,7 +843,9 @@ body {
 }
 
 .header-img img {
+  aspect-ratio: 1;
   height: 100px;
+  border-radius: 50%;
 }
 
 .profile-pic {
@@ -937,13 +939,13 @@ body {
 
 .polaroid-card .polaroid-img {
   background: #949494;
-  /*aspect-ratio: 1;*/
   overflow: hidden;
-    
 }
-.polaroid-img img{
-    width: 100%;
+
+.polaroid-card .polaroid-img img {
+  width: 100%;
 }
+
 .polaroid-card .title {
   padding: 1rem 0;
   font-family: "Source Serif Pro", serif;
