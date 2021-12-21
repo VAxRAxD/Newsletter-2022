@@ -941,7 +941,11 @@ body {
 
 .polaroid-card .polaroid-img {
   background: #949494;
-  aspect-ratio: 1;
+  /*aspect-ratio: 1;*/
+  overflow: hidden;
+}
+.polaroid-img img{
+  width: 100%;
 }
 
 .polaroid-card .title {

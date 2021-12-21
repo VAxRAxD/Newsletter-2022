@@ -23,7 +23,11 @@ body {
   .polaroid-img {
     background: #949494;
     //height: 266px;
-    aspect-ratio: 1;
+    //aspect-ratio: 1;
+    overflow: hidden;
+    img {
+      width: 100%;
+    }
   }
   .title {
     padding: 1rem 0;
