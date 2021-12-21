@@ -4,36 +4,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -624,51 +630,68 @@ body {
 }
 
 .story.aman-sir::after {
-  content: "Amantali Pathan";
+  content: "Mr. Amantali Pathan";
 }
 
 .story.khan-sir::after {
-  content: "Shamsudin Khan";
+  content: "Mr. Shamsudin Khan";
 }
 
 .story.amrita-maam::after {
-  content: "Amrita Mathur";
+  content: "Ms. Amrita Mathur";
 }
 
 .story.monika-maam::after {
-  content: "Monika Pal";
+  content: "Ms. Monika Pal";
 }
 
 .story.savita-maam::after {
-  content: "Savita Kulkarni";
+  content: "Ms. Savita Kulkarni";
 }
 
 .story.seema-vrishali-maam::after {
-  content: "Seema Jadhav & Vrishali Jadhav";
+  content: "Ms. Seema Jadhav & Ms. Vrishali Jadhav";
 }
 
 .story.josna-maam::after {
-  content: "Josna Jones";
+  content: "Ms. Josna Jones";
 }
 
 .story.bysani-sir::after {
-  content: "Bysani Malakondaiah";
+  content: "Mr. Bysani Malakondaiah";
 }
 
 .story.khalap-sir::after {
-  content: "D.V. Khalap";
+  content: "Mr. D.V. Khalap";
 }
 
 .story.harish-sir::after {
-  content: "Harish Arekar";
+  content: "Mr. Harish Arekar";
 }
 
 .story.sainath-sir::after {
-  content: "Sainath Ghosalkar";
+  content: "Mr. Sainath Ghosalkar";
 }
 
 .story video {
   border-radius: 25px;
+}
+
+.end-left {
+  margin-left: 10rem;
+}
+
+.end-right {
+  margin-right: 10rem;
+}
+
+@media (max-width: 991px) {
+  .end-left {
+    margin-left: 0;
+  }
+  .end-right {
+    margin-right: 0;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -779,7 +802,7 @@ body {
 }
 
 .ribbon.alumni-ribbon::after {
-  content: "Alumni's Speak";
+  content: "Alumni Speak";
   color: #7a1d28;
 }
 
