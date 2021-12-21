@@ -23,7 +23,7 @@ body {
 .msg-box {
   border: 12px dashed $darkgrey;
   position: relative;
-  border-image: url("../img/border_bg.png") 30 round;
+  border-image: url("../images/border_bg.png") 30 round;
   padding: 1rem;
   background: #dfc49c;
 }
@@ -46,7 +46,9 @@ body {
   padding: 1rem;
 
   img {
+    aspect-ratio: 1;
     height: 100px;
+    border-radius: 50%;
   }
 }
 .profile-pic {
