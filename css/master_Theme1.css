@@ -884,6 +884,10 @@ body {
   border-radius: 50%;
 }
 
+.modal-dialog img {
+  width: 18% !important;
+}
+
 @media only screen and (max-width: 768px) {
   .line::before {
     display: none;
@@ -980,6 +984,7 @@ body {
 .polaroid-card .title {
   padding: 1rem 0;
   font-family: "Source Serif Pro", serif;
+  font-weight: bold;
 }
 
 .card {
@@ -998,6 +1003,8 @@ body {
   color: #7a1d28;
   font-size: 0.8rem;
   cursor: pointer;
+  background-color: #F9F9F9;
+  padding: 0.2rem 0;
 }
 
 .polaroid-card-back {
@@ -1516,7 +1523,7 @@ hr {
   }
   #myDropdown {
     position: absolute;
-    left: 93%;
+    left: 97%;
     top: -5%;
   }
 }
@@ -1580,7 +1587,7 @@ hr {
             transform: translate(-20%, 0);
   }
   #myDropdown {
-    left: 92%;
+    left: 94%;
   }
   #myDropdown a {
     padding-right: 0 !important;
@@ -1662,7 +1669,7 @@ body {
 
 .foreword-header .foreword-img-wrap::before {
   content: "";
-  height: 150vh;
+  height: 200vh !important;
   top: 0;
   width: 8rem;
   background: #ddc8a7;
