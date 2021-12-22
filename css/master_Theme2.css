@@ -836,8 +836,8 @@ body {
 .msg-box {
   border: 12px dashed #555555;
   position: relative;
-  -o-border-image: url("../img/border_bg.png") 30 round;
-     border-image: url("../img/border_bg.png") 30 round;
+  -o-border-image: url("../images/border_bg.png") 30 round;
+     border-image: url("../images/border_bg.png") 30 round;
   padding: 1rem;
   background: #dfc49c;
 }
@@ -877,10 +877,6 @@ body {
 .profile-pic {
   max-height: 150px;
   border-radius: 50%;
-}
-
-.modal-dialog img {
-  width: 18% !important;
 }
 
 @media only screen and (max-width: 768px) {

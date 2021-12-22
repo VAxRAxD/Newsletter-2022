@@ -884,10 +884,6 @@ body {
   border-radius: 50%;
 }
 
-.modal-dialog img {
-  width: 18% !important;
-}
-
 @media only screen and (max-width: 768px) {
   .line::before {
     display: none;
@@ -1306,7 +1302,7 @@ body {
 }
 
 .announcement_wrap {
-  background: url("../img/announcement_bg.png");
+  background: url("../images/announcement_bg.png");
   background-size: cover;
 }
 
