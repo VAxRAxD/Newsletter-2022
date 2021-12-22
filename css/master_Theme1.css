@@ -5,55 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -538,53 +489,6 @@ body {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.ribbon {
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-}
-
-.ribbon::after {
-  content: "";
-  position: absolute;
-  color: #ffffff;
-  padding: 0.2rem;
-  font-family: "Lobster", cursive;
-  font-size: 1.8rem;
-}
-
-@media only screen and (min-width: 475px) {
-  .ribbon img {
-    max-width: 350px;
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  .ribbon img {
-    max-width: 300px;
-  }
-  .ribbon::after {
-    font-size: 1.6rem;
-    padding: 0.1rem;
-  }
-}
-
-.pos-rel {
-  position: relative;
-}
-
 body {
   background-color: #ebe2d4 !important;
 }
@@ -757,53 +661,6 @@ body {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.ribbon {
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-}
-
-.ribbon::after {
-  content: "";
-  position: absolute;
-  color: #ffffff;
-  padding: 0.2rem;
-  font-family: "Lobster", cursive;
-  font-size: 1.8rem;
-}
-
-@media only screen and (min-width: 475px) {
-  .ribbon img {
-    max-width: 350px;
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  .ribbon img {
-    max-width: 300px;
-  }
-  .ribbon::after {
-    font-size: 1.6rem;
-    padding: 0.1rem;
-  }
-}
-
-.pos-rel {
-  position: relative;
-}
-
 body {
   background-color: #ebe2d4;
   background-size: cover;
@@ -896,53 +753,6 @@ body {
     width: 110px;
     border-radius: 50%;
   }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.ribbon {
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-}
-
-.ribbon::after {
-  content: "";
-  position: absolute;
-  color: #ffffff;
-  padding: 0.2rem;
-  font-family: "Lobster", cursive;
-  font-size: 1.8rem;
-}
-
-@media only screen and (min-width: 475px) {
-  .ribbon img {
-    max-width: 350px;
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  .ribbon img {
-    max-width: 300px;
-  }
-  .ribbon::after {
-    font-size: 1.6rem;
-    padding: 0.1rem;
-  }
-}
-
-.pos-rel {
-  position: relative;
 }
 
 body {
@@ -1038,53 +848,6 @@ body {
     width: 350px;
     height: 450px;
   }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.ribbon {
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-}
-
-.ribbon::after {
-  content: "";
-  position: absolute;
-  color: #ffffff;
-  padding: 0.2rem;
-  font-family: "Lobster", cursive;
-  font-size: 1.8rem;
-}
-
-@media only screen and (min-width: 475px) {
-  .ribbon img {
-    max-width: 350px;
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  .ribbon img {
-    max-width: 300px;
-  }
-  .ribbon::after {
-    font-size: 1.6rem;
-    padding: 0.1rem;
-  }
-}
-
-.pos-rel {
-  position: relative;
 }
 
 body {
@@ -1225,53 +988,6 @@ body {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.ribbon {
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-}
-
-.ribbon::after {
-  content: "";
-  position: absolute;
-  color: #ffffff;
-  padding: 0.2rem;
-  font-family: "Lobster", cursive;
-  font-size: 1.8rem;
-}
-
-@media only screen and (min-width: 475px) {
-  .ribbon img {
-    max-width: 350px;
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  .ribbon img {
-    max-width: 300px;
-  }
-  .ribbon::after {
-    font-size: 1.6rem;
-    padding: 0.1rem;
-  }
-}
-
-.pos-rel {
-  position: relative;
-}
-
 body {
   font-family: "Source Serif Pro", serif !important;
   background: #ebe2d4;
@@ -1373,53 +1089,6 @@ body {
   .poem-modal .modal-dialog {
     height: 60% !important;
   }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.ribbon {
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-}
-
-.ribbon::after {
-  content: "";
-  position: absolute;
-  color: #ffffff;
-  padding: 0.2rem;
-  font-family: "Lobster", cursive;
-  font-size: 1.8rem;
-}
-
-@media only screen and (min-width: 475px) {
-  .ribbon img {
-    max-width: 350px;
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  .ribbon img {
-    max-width: 300px;
-  }
-  .ribbon::after {
-    font-size: 1.6rem;
-    padding: 0.1rem;
-  }
-}
-
-.pos-rel {
-  position: relative;
 }
 
 .header-tab {
@@ -1589,53 +1258,6 @@ hr {
   #myDropdown a {
     padding-right: 0 !important;
   }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.ribbon {
-  padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  position: relative;
-}
-
-.ribbon::after {
-  content: "";
-  position: absolute;
-  color: #ffffff;
-  padding: 0.2rem;
-  font-family: "Lobster", cursive;
-  font-size: 1.8rem;
-}
-
-@media only screen and (min-width: 475px) {
-  .ribbon img {
-    max-width: 350px;
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  .ribbon img {
-    max-width: 300px;
-  }
-  .ribbon::after {
-    font-size: 1.6rem;
-    padding: 0.1rem;
-  }
-}
-
-.pos-rel {
-  position: relative;
 }
 
 body {
