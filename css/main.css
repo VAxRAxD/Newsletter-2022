@@ -1,11 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,400;0,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Source+Serif+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,900&display=swap");
-body {
-  font-family: "Source Serif Pro", serif !important;
-}
-
-.pos-rel, .time-section {
-  position: relative;
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .ribbon {
@@ -20,12 +24,12 @@ body {
 }
 
 .ribbon::after {
-  content: "From the Desks";
+  content: "";
   position: absolute;
   color: #ffffff;
-  padding: 0.5rem;
+  padding: 0.2rem;
   font-family: "Lobster", cursive;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 @media only screen and (min-width: 475px) {
@@ -36,12 +40,16 @@ body {
 
 @media only screen and (max-width: 475px) {
   .ribbon img {
-    max-width: 250px;
+    max-width: 300px;
   }
   .ribbon::after {
-    font-size: 1.1rem;
-    padding: 0.2rem;
+    font-size: 1.6rem;
+    padding: 0.1rem;
   }
+}
+
+.pos-rel, .time-section {
+  position: relative;
 }
 
 body {

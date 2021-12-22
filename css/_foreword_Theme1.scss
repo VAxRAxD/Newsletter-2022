@@ -1,4 +1,4 @@
-@import "./theme";
+@import "./Theme";
 
 body {
   background: $lightbrown;
@@ -7,9 +7,11 @@ body {
   overflow-x: hidden;
   font-family: "Source Serif Pro", serif !important;
 }
-
-.ribbon::after {
+.ribbon.foreword-ribbon::after{
   content: "Foreword";
+}
+.ribbon img{
+  content: url("../images/label-dark.png" );
 }
 .foreword-header {
   padding: 1rem;
@@ -19,11 +21,11 @@ body {
 
     &::before {
       content: "";
-      height: 150vh;
+      height: 100vh !important;
       top: 0;
       width: 8rem;
       background: #ddc8a7;
-      position: absolute;
+      position: fixed;
       z-index: -1;
     }
     &::after {

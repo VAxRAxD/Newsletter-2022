@@ -616,8 +616,9 @@ body {
 }
 
 .click {
-  width: 90% !important;
-  margin: 1rem 0;
+  width: 100% !important;
+  height: 181px !important;
+  margin: 1rem 1rem;
 }
 
 .story::after {
@@ -1665,11 +1666,11 @@ body {
 
 .foreword-header .foreword-img-wrap::before {
   content: "";
-  height: 200vh !important;
+  height: 100vh !important;
   top: 0;
   width: 8rem;
   background: #ddc8a7;
-  position: absolute;
+  position: fixed;
   z-index: -1;
 }
 
