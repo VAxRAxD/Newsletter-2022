@@ -249,7 +249,7 @@ YEAR SECTIONS
   font-weight: bold;
   line-height: 1;
   padding-bottom: 1rem;
-  word-spacing: 100vw;
+  word-spacing: 1vw;
 }
 
 .year-section-header::after {
