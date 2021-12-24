@@ -2,7 +2,7 @@ let currentActive = 0;
 const sections = document.querySelectorAll("section");
 const links = document.querySelectorAll(".item");
 const windowInnerWidth  = document.documentElement.clientWidth;
-const breakId = 19 - Math.floor(windowInnerWidth/115);
+const breakId = 21 - Math.floor(windowInnerWidth/115);
 window.onscroll = () => {
     sections.forEach(sec =>{
         let top = window.scrollY;   
