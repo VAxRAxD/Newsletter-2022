@@ -10,7 +10,8 @@
     <title>Timeline</title>
   </head>
   <body>
-            <div class="sticky-wrap">
+  <?php include("Header.php"); ?>
+            <div id="timeline">
                 <div class="timeline">
                     <div class="scroller" id="scroller">
                         <div class="marker"></div>
@@ -116,7 +117,7 @@
                                         Inauguration of SFIT
                                     </div>
                                     <p class="year-section-info">
-                                        St. Francis Institute of Technology (SFIT) was started in the academic year 1999-2000 with three branches, Computer Engineering, Information Technology Engineering and Electronics & Telecommunication Engineering with a mission to be a chrysalis where bright youngsters are transformed into technological entrepreneurs and innovative leaders of tomorrow’s world, consistent with the Franciscan vision of integrity, peace and love.
+                                        St. Francis Institute of Technology (SFIT) was started in the academic year 1999-2000 with three branches, Computer Engineering, Information Technology Engineering and Electronics & Telecommunication Engineering with a mission to be a chrysalis where bright youngsters are transformed into technological entrepreneurs and innovative leaders of tomorrow's world, consistent with the Franciscan vision of integrity, peace and love.
                                     </p>
                                 </div>
                             </div>
@@ -291,7 +292,7 @@
                                     The IETE student Chapter at SFIT started in 2008. Their main objective is to provide a platform to the students where they can develop their technical and managerial skills by organising various technical events.
                                 </p>
                                 <div class="year-section-header pos-rel">
-                                    Upgrading SFIT’s Structure
+                                    Upgrading SFIT's Structure
                                 </div>
                                 <p class="year-section-info">
                                     In the year 2008, SFIT expanded its structure to a 7 floored building.
@@ -626,7 +627,24 @@
         </script>
         <script src="js/scrollspy.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+  <script>
+        $(document).ready(function() {
+            var navpos = $('#timeline').offset();
+            console.log(navpos.top);
+            $(window).bind('scroll', function() {
+                if ($(window).scrollTop() > navpos.top) {
+                    $('#timeline').addClass('sticky-wrap');
+                    $('#year0').addClass('m-top-96');
+                }
+                else {
+                    $('#timeline').removeClass('sticky-wrap');
+                    $('#year0').removeClass('m-top-96');
+                }
+            });
+        });
+  </script>
 </html>
 
 
