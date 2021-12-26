@@ -32,7 +32,7 @@
                     </a>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="router.php?page=alumni_speak">
+                    <a href="router.php?page=foreword">
                         <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
                             aria-selected="false">Foreword</button>
