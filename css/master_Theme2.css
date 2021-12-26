@@ -1024,6 +1024,10 @@ body {
   background-color: #7a1d28;
 }
 
+.nav-item a {
+  text-decoration: none;
+}
+
 .nav-link {
   color: #F6F3F4 !important;
   font-family: "Source Serif Pro" !important;
@@ -1031,12 +1035,16 @@ body {
   font-weight: 400;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   color: #7a1d28 !important;
   background-color: #ebe2d4 !important;
 }
 
-.hamburger-menu, .cross-menu, .hamburger-menu-light, .cross-menu-light {
+.hamburger-menu,
+.cross-menu,
+.hamburger-menu-light,
+.cross-menu-light {
   position: absolute;
   top: 7rem;
   display: none;
@@ -1104,13 +1112,15 @@ hr {
 }
 
 @media (min-width: 525px) and (max-width: 1059px) {
-  .hamburger-menu-light, .cross-menu-light {
+  .hamburger-menu-light,
+  .cross-menu-light {
     top: 1.8rem;
   }
 }
 
 @media (min-width: 461px) and (max-width: 540px) {
-  .hamburger-menu-light, .cross-menu {
+  .hamburger-menu-light,
+  .cross-menu {
     left: -0.5rem;
   }
 }
