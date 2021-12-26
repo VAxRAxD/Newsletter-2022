@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include("Header.php"); ?>
+    <?php include("./Headers/Alumni_nav.php"); ?>
     <div class="container">
         <div class="row">
             <div class="ribbon alumni-ribbon">

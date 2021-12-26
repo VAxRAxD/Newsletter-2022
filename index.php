@@ -10,7 +10,7 @@
     <title>Timeline</title>
   </head>
   <body>
-  <?php include("Header.php"); ?>
+  <?php include("./Headers/Timeline_nav.php"); ?>
             <div id="timeline">
                 <div class="timeline">
                     <div class="scroller" id="scroller">

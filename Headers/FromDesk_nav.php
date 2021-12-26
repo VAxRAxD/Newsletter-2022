@@ -1,4 +1,4 @@
-    <div class="header-tab">
+<div class="header-tab">
         <div class="container">
             <p>Chrysalis Konnect - Quartz</p>
         </div>
@@ -15,7 +15,7 @@
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <a href="router.php?page=timeline">
-                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
                             aria-selected="true">Timeline</button>
                     </a>
@@ -29,7 +29,7 @@
                 </li>
                 <li class="dropdown nav-item" role="presentation">
 
-                    <button onclick="drpFunction()" class="dropbtn nav-link" id="pills-profile-tab"
+                    <button onclick="drpFunction()" class="dropbtn nav-link active" id="pills-profile-tab"
                         data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
                         aria-controls="pills-profile" aria-selected="false">From The Desks</button>
                     <div id="myDropdown" class="dropdown-content">
@@ -78,48 +78,4 @@
         <hr id="bottom">
     </div>
 
-    <script>
-function drpFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
-}
-
-function clickfunc() {
-    document.querySelector('#header-nav').style.display = "flex";
-    document.querySelector('#hamburger-menu').style.display = "none";
-    document.querySelector('#cross-menu').style.display = "inline-block";
-    document.querySelector('#bottom').style.display = "block";
-};
-
-function clickfunclight() {
-    document.querySelector('#header-nav').style.display = "flex";
-    document.querySelector('#hamburger-menu-light').style.display = "none";
-    document.querySelector('#cross-menu-light').style.display = "inline-block";
-    document.querySelector('#bottom').style.display = "block";
-};
-
-function crossfunc() {
-    document.querySelector('#header-nav').style.display = "none";
-    document.querySelector('#hamburger-menu').style.display = "inline-block";
-    document.querySelector('#cross-menu').style.display = "none";
-    document.querySelector('#bottom').style.display = "none";
-};
-
-function crossfunclight() {
-    document.querySelector('#header-nav').style.display = "none";
-    document.querySelector('#hamburger-menu-light').style.display = "inline-block";
-    document.querySelector('#cross-menu-light').style.display = "none";
-    document.querySelector('#bottom').style.display = "none";
-};
-    </script>
+    <script src="./js/header.js"></script> 

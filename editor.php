@@ -15,7 +15,7 @@
     <title>From the Desks - Editor</title>
   </head>
   <body>
-  <?php include("Header.php"); ?>
+  <?php include("./Headers/FromDesk_nav.php"); ?>
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-2 col-lg-1 side-col lg-h1 h-100">

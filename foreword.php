@@ -16,7 +16,7 @@
   </head>
 
   <body>
-  <?php include("Header.php"); ?>
+  <?php include("./Headers/Foreword_nav.php"); ?>
     <div class="container">
       <div class="ribbon foreword-ribbon">
         <img alt="ribbon" class="img-fluid" />

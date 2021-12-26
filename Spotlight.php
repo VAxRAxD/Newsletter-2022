@@ -12,7 +12,7 @@
 </head>
 
 <body>
-<?php include("Header.php"); ?>
+<?php include("./Headers/Spotlight_nav.php"); ?>
   <div class="modal" tabindex="-1" id="myEnv">
     <div class="modal-dialog modal-dialog-centered ann-modal">
       <div class="modal-content">
