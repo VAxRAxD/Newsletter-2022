@@ -19,6 +19,9 @@ body{
     @include flex-center-relative;
     margin-bottom: 4.5rem;
 }
+.information img{
+    border: 2px solid $maroon;
+}
 .information::before{
     color: $maroon;
     font-family: "Source Serif Pro";
@@ -32,9 +35,7 @@ body{
     display: grid;
     place-items: center;
 }
-.information img{
-    background-color: white;
-}
+
 .audio-visual-head::before{
     content: "Audio & Visual Head";
     text-align: center;

@@ -99,60 +99,59 @@
             <div class="row justify-content-around">
                 <div class="story aman-sir col-12 col-sm-12 col-md-6 col-lg-4">
                     <iframe class="img-fluid click"
-                        src="https://www.youtube.com/embed/g5SgOyS-vMw">
+                        src="https://www.youtube.com/embed/g5SgOyS-vMw" allow="fullscreen;">
                     </iframe>
                 </div>
                 <div class="story khan-sir col-12 col-sm-12 col-md-6 col-lg-4">
                     <iframe class="img-fluid click"
-                        src="https://www.youtube.com/embed/vQBFDR5_2Jk">
+                        src="https://www.youtube.com/embed/vQBFDR5_2Jk" allow="fullscreen;">
                     </iframe>
                 </div>
                 <div class="story amrita-maam col-12 col-sm-12 col-md-6 col-lg-4">
                     <iframe class="img-fluid click"
-                        src="https://www.youtube.com/embed/16vV_yrzCZY">
+                        src="https://www.youtube.com/embed/16vV_yrzCZY" allow="fullscreen;">
                     </iframe>
                 </div>
                 <div class="story monika-maam col-12 col-sm-12 col-md-6 col-lg-4">
                     <iframe class="img-fluid click"
-                        src="https://www.youtube.com/embed/7qnaibwDy7U">
+                        src="https://www.youtube.com/embed/7qnaibwDy7U" allow="fullscreen;">
                     </iframe>
                 </div>
                 <div class="story bysani-sir col-12 col-sm-12 col-md-6 col-lg-4">
                     <iframe class="img-fluid click"
-                        src="https://www.youtube.com/embed/QNYtXAjTkSk">
+                        src="https://www.youtube.com/embed/QNYtXAjTkSk" allow="fullscreen;">
                     </iframe>
                 </div>
                 <div class="story harish-sir col-12 col-sm-12 col-md-6 col-lg-4">
                     <iframe class="img-fluid click"
-                        src="https://www.youtube.com/embed/C1elcRsDCYs">
+                        src="https://www.youtube.com/embed/C1elcRsDCYs" allow="fullscreen;">
                     </iframe>
                 </div>
                 <div class="story seema-vrishali-maam col-12 col-sm-12 col-md-6 col-lg-4">
                     <iframe class="img-fluid click"
-                        src="https://www.youtube.com/embed/TViryw1r-ZI">
+                        src="https://www.youtube.com/embed/TViryw1r-ZI" allow="fullscreen;">
                     </iframe>
                 </div>
                 <div class="story savita-maam col-12 col-sm-12 col-md-6 col-lg-4">
                     <iframe class="img-fluid click"
-                        src="https://www.youtube.com/embed/3mHJmiFQOKg">
+                        src="https://www.youtube.com/embed/3mHJmiFQOKg" allow="fullscreen;">
                     </iframe>
                 </div>
                 <div class="story josna-maam col-12 col-sm-12 col-md-6 col-lg-4">
-                    <iframe class="img-fluid click" frameborder="0"
-                        allowtransparency="true" allowfullscreen
-                        src="https://www.youtube.com/embed/NcwOTihOJfU">
+                    <iframe class="img-fluid click"
+                        src="https://www.youtube.com/embed/NcwOTihOJfU" allow="fullscreen;">
                     </iframe>
                 </div>
                 
                 <div class="story khalap-sir col-12 col-sm-12 col-md-6 col-lg-4 end-left">
                     <iframe class="img-fluid click"
-                        src="https://www.youtube.com/embed/JH07hIxb2aM">
+                        src="https://www.youtube.com/embed/JH07hIxb2aM" allow="fullscreen;">
                     </iframe>
                 </div>
                 
                 <div class="story sainath-sir col-12 col-sm-12 col-md-6 col-lg-4 end-right">
                     <iframe class="img-fluid click"
-                        src="https://www.youtube.com/embed/6UhaeMetpVI">
+                        src="https://www.youtube.com/embed/6UhaeMetpVI" allow="fullscreen;">
                     </iframe>
                 </div>
             </div>

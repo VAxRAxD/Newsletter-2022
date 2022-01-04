@@ -86,6 +86,10 @@ body {
   margin-bottom: 4.5rem;
 }
 
+.information img {
+  border: 2px solid #7a1d28;
+}
+
 .information::before {
   color: #7a1d28;
   font-family: "Source Serif Pro";
@@ -99,10 +103,6 @@ body {
   display: -ms-grid;
   display: grid;
   place-items: center;
-}
-
-.information img {
-  background-color: white;
 }
 
 .audio-visual-head::before {
