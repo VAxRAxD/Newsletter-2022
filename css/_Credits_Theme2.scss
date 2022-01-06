@@ -18,7 +18,10 @@ body{
 }
 .information{
     @include flex-center-relative;
-    margin-bottom: 4.5rem;
+    margin-bottom: 5rem;
+}
+.space{
+    margin-bottom: 3rem;
 }
 .information::before{
     color: $maroon;
