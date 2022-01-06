@@ -425,6 +425,14 @@ hr {
   border-style: solid !important;
 }
 
+.gif {
+  width: 60% !important;
+}
+
+.adjust {
+  width: 65% !important;
+}
+
 @media (max-width: 1059px) {
   .header-nav {
     display: none;
@@ -481,6 +489,12 @@ hr {
     -webkit-transform: translate(-35%, 0);
             transform: translate(-35%, 0);
   }
+  .gif {
+    width: 75% !important;
+  }
+  .adjust {
+    width: 90% !important;
+  }
 }
 
 @media (min-width: 501px) and (max-width: 700px) {
@@ -488,12 +502,24 @@ hr {
     -webkit-transform: translate(-30%, 0);
             transform: translate(-30%, 0);
   }
+  .gif {
+    width: 75% !important;
+  }
+  .adjust {
+    width: 90% !important;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 500px) {
   .header-nav {
     -webkit-transform: translate(-20%, 0);
             transform: translate(-20%, 0);
+  }
+  .gif {
+    width: 70% !important;
+  }
+  .adjust {
+    width: 90% !important;
   }
 }
 
@@ -507,6 +533,12 @@ hr {
   .header-nav {
     -webkit-transform: translate(-20%, 0);
             transform: translate(-20%, 0);
+  }
+  .gif {
+    width: 65% !important;
+  }
+  .adjust {
+    width: 85% !important;
   }
   #myDropdown {
     left: 94%;
