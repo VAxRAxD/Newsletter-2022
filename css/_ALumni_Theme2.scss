@@ -19,6 +19,14 @@ body {
   background: $lightbrown;
   color: $maroon;
 }
+.btn-danger:hover{
+  background-color: $maroon
+}
+.btn-danger:focus{
+  background-color: $lightbrown;
+  box-shadow: none;
+  color: $maroon;
+}
 .alumni-text {
     color: $lightbrown;
   text-align: justify;

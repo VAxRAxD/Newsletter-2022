@@ -17,6 +17,14 @@ body {
   float: right;
   background: $maroon;
 }
+.btn-danger:hover{
+  background-color: $maroon
+}
+.btn-danger:focus{
+  background-color: $lightbrown;
+  box-shadow: none;
+  color: $maroon;
+}
 .alumni-text {
   text-align: justify;
 }

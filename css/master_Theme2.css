@@ -704,6 +704,17 @@ body {
   color: #7a1d28;
 }
 
+.btn-danger:hover {
+  background-color: #7a1d28;
+}
+
+.btn-danger:focus {
+  background-color: #ebe2d4;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #7a1d28;
+}
+
 .alumni-text {
   color: #ebe2d4;
   text-align: justify;
@@ -1301,7 +1312,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .foreword-para {
-    padding: 0 3rem 0 0;
+    padding: 0 5rem 0 0;
     text-align: justify;
   }
 }
