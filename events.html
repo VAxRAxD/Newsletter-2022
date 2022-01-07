@@ -97,7 +97,10 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-body">
-          <iframe height="300px" width="100%" src="https://www.youtube.com/embed/jcAHvhmUOng" frameborder="0"
+          <div class="col-auto">
+            <button type="button" class="btn-close" id="1-close" data-bs-dismiss="modal" aria-label="Close" onClick="remove(this.getAttribute('id'));"></button>
+          </div>
+          <iframe height="300px" width="100%" id="1-close-video" src="https://www.youtube.com/embed/jcAHvhmUOng" frameborder="0"
             allowtransparency="true" allowfullscreen>
           </iframe>
         </div>
@@ -109,7 +112,10 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-body">
-          <iframe height="300px" width="100%" src="https://www.youtube.com/embed/kaNFOnFlQIM" frameborder="0"
+          <div class="col-auto">
+            <button type="button" class="btn-close" id="2-close" data-bs-dismiss="modal" aria-label="Close" onClick="remove(this.getAttribute('id'));"></button>
+          </div>
+          <iframe height="300px" width="100%" id="2-close-video" src="https://www.youtube.com/embed/kaNFOnFlQIM" frameborder="0"
             allowtransparency="true" allowfullscreen>
           </iframe>
         </div>
@@ -121,7 +127,10 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-body">
-          <iframe height="300px" width="100%" src="https://www.youtube.com/embed/aSJCyXJQ5qY" frameborder="0"
+          <div class="col-auto">
+            <button type="button" class="btn-close" id="3-close" data-bs-dismiss="modal" aria-label="Close" onClick="remove(this.getAttribute('id'));"></button>
+          </div>
+          <iframe height="300px" width="100%" id="3-close-video" src="https://www.youtube.com/embed/aSJCyXJQ5qY" frameborder="0"
             allowtransparency="true" allowfullscreen>
           </iframe>
         </div>
@@ -133,7 +142,12 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-body">
-          <iframe height="300px" width="100%" src="https://www.youtube.com/embed/BsruBShAk3k" frameborder="0"
+          <div class="col-auto">
+            <button type="button" class="btn-close" id="4-close" data-bs-dismiss="modal" aria-label="Close"
+            onClick="remove(this.getAttribute('id'));">
+          </button>
+          </div>
+          <iframe height="300px" width="100%" id="4-close-video" src="https://www.youtube.com/embed/BsruBShAk3k" frameborder="0"
             allowtransparency="true" allowfullscreen>
           </iframe>
         </div>
@@ -145,7 +159,12 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-body">
-          <iframe height="300px" width="100%" src="https://www.youtube.com/embed/avTQKy3B2Ek" frameborder="0"
+          <div class="col-auto">
+            <button type="button" class="btn-close" id="5-close" data-bs-dismiss="modal" aria-label="Close"
+            onClick="remove(this.getAttribute('id'));">
+          </button>
+          </div>
+          <iframe height="300px" width="100%" id="5-close-video" src="https://www.youtube.com/embed/avTQKy3B2Ek" frameborder="0"
             allowtransparency="true" allowfullscreen>
           </iframe>
         </div>
@@ -157,7 +176,12 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-body">
-          <iframe height="300px" width="100%" src="https://www.youtube.com/embed/Nn86zdp2C3o" frameborder="0"
+          <div class="col-auto">
+            <button type="button" class="btn-close" id="6-close" data-bs-dismiss="modal" aria-label="Close"
+            onClick="remove(this.getAttribute('id'));">
+          </button>
+          </div>
+          <iframe height="300px" width="100%" id="6-close-video" src="https://www.youtube.com/embed/Nn86zdp2C3o" frameborder="0"
             allowtransparency="true" allowfullscreen>
           </iframe>
         </div>
@@ -169,7 +193,12 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-body">
-          <iframe height="300px" width="100%" src="https://www.youtube.com/embed/K78wPllINLY" frameborder="0"
+          <div class="col-auto">
+            <button type="button" class="btn-close" id="7-close" data-bs-dismiss="modal" aria-label="Close"
+              onClick="remove(this.getAttribute('id'));">
+            </button>
+          </div>
+          <iframe height="300px" width="100%" id="7-close-video" src="https://www.youtube.com/embed/K78wPllINLY" frameborder="0"
             allowtransparency="true" allowfullscreen>
           </iframe>
         </div>
@@ -181,7 +210,12 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-body">
-          <iframe height="300px" width="100%" src="https://www.youtube.com/embed/SYB5KPcV7-U" frameborder="0"
+          <div class="col-auto">
+            <button type="button" class="btn-close" id="8-close" data-bs-dismiss="modal" aria-label="Close" 
+              onClick="remove(this.getAttribute('id'));">
+            </button>
+          </div>
+          <iframe height="300px" width="100%" id="8-close-video" src="https://www.youtube.com/embed/SYB5KPcV7-U" frameborder="0"
             allowtransparency="true" allowfullscreen>
           </iframe>
         </div>
@@ -424,6 +458,11 @@
           card[index / 2].style.transform = "rotateY(180deg)";
         }
       });
+    }
+    function remove(idname){
+      var src=document.getElementById(idname+"-video").src;
+      document.getElementById(idname+"-video").removeAttribute('src');
+      document.getElementById(idname+"-video").src=src;
     }
   </script>
 </body>
