@@ -1316,4 +1316,110 @@ body {
     text-align: justify;
   }
 }
+
+body {
+  font-family: "Source Serif Pro", serif !important;
+  background: #7a1d28;
+}
+
+.text-maroon {
+  color: #7a1d28;
+}
+
+.modal-body::-webkit-scrollbar {
+  display: none;
+}
+
+.ribbon.spotlight-ribbon::after {
+  content: "Spotlight";
+  color: #7a1d28;
+}
+
+.ribbon img {
+  content: url("../images/label-light.png");
+}
+
+.modal-dialog img {
+  width: 100%;
+}
+
+.modal-content {
+  background: transparent;
+  border: none;
+}
+
+.announcement_wrap {
+  background: url("../images/announcement_bg.png");
+  background-size: cover;
+}
+
+.announcement_wrap h2 {
+  color: #7a1d28;
+}
+
+.announcement_wrap {
+  padding: 0.5rem;
+}
+
+.spotlight-card {
+  padding: 0.6rem;
+  border: 3px solid #ebe2d4;
+  margin: 1rem;
+  max-width: 250px;
+}
+
+.spotlight-card .spotlight-name,
+.spotlight-card .spotlight-subtitle {
+  color: #ebe2d4;
+  text-align: center;
+}
+
+.spotlight-card .spotlight-name {
+  background: #7a1d28;
+  margin-top: -1.5rem;
+  font-weight: bolder;
+}
+
+.spotlight-card .spotlight-img {
+  width: 100%;
+}
+
+.f-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.btn-maroon {
+  background: #ebe2d4;
+  color: #7a1d28;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-maroon:hover {
+  color: #7a1d28;
+}
+
+.poem-modal .modal-content {
+  text-align: center;
+}
+
+.poem-modal .modal-content .modal-body {
+  background: url("../img/poem_bg.png");
+  background-size: 100% 100%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+.poem-modal .modal-content .modal-body h1 {
+  padding-top: 5rem;
+}
+
+@media only screen and (max-width: 528px) {
+  .poem-modal .modal-dialog {
+    height: 60% !important;
+  }
+}
 /*# sourceMappingURL=master_Theme2.css.map */
